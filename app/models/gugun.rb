@@ -1,0 +1,3 @@
+class Gugun < ApplicationRecord
+
+end

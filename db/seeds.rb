@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+# GRADE_TITLES = %w()
+11.times do |i|
+    title = (i.to_f / 2).to_s
+    description = (i * 10)
+    Grade.create(title: title, description: description)
+end

@@ -1,0 +1,37 @@
+<%= form_with(model: area, local: true) do |form| %>
+  <% if area.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(area.errors.count, "error") %> prohibited this area from being saved:</h2>
+
+      <ul>
+      <% area.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nation_id %>
+    <%= form.text_field :nation_id, id: :area_nation_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sido_id %>
+    <%= form.text_field :sido_id, id: :area_sido_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :gugun_id %>
+    <%= form.text_field :gugun_id, id: :area_gugun_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :local_id %>
+    <%= form.text_field :local_id, id: :area_local_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

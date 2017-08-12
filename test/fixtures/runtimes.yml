@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  wd_open: 2017-08-12 13:18:11
+  wd_close: 2017-08-12 13:18:11
+  we_open: 2017-08-12 13:18:11
+  we_close: 2017-08-12 13:18:11
+  etc_time1: 2017-08-12 13:18:11
+  etc_time2: 2017-08-12 13:18:11
+
+two:
+  wd_open: 2017-08-12 13:18:11
+  wd_close: 2017-08-12 13:18:11
+  we_open: 2017-08-12 13:18:11
+  we_close: 2017-08-12 13:18:11
+  etc_time1: 2017-08-12 13:18:11
+  etc_time2: 2017-08-12 13:18:11

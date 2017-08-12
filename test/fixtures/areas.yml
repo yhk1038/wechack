@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nation: one
+  sido: one
+  gugun: one
+  local: one
+
+two:
+  nation: two
+  sido: two
+  gugun: two
+  local: two
